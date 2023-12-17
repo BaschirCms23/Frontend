@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;proxyParams&quot;:{&quot;proxyHost&quot;:&quot;www.Nackademinpizzeria.com&quot;,&quot;proxyPort&quot;:22,&quot;proxyType&quot;:&quot;HTTP&quot;}}" host="www.Nackademinpizzeria.com" id="34df5d4c-dc14-4d49-956a-39e7d438b5a4" port="22" nameFormat="DESCRIPTIVE" username="NackademinPizzeria" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

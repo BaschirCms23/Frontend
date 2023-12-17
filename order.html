@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pizzarestaurang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Nackademin Pizzeria</h1>
+    <nav>
+        <ul>
+            <li><a href="Lektion%202.html">Hem</a></li>
+            <li><a href="menu.html">Meny</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+            <li> <a href="order.html">Beställ </a></li>
+
+        </ul>
+    </nav>
+</header>
+<div class="order">
+
+<div id="order-form">
+    <h2>Beställning</h2>
+    <label for="pizza-type">Välj pizza:</label>
+    <select id="pizza-type">
+        <option value="Margherita">Margherita</option>
+        <option value="Pepperoni">Pepperoni</option>
+        <option value="Kebabpizza">Kebabpizza</option>
+        <option value="Kycklingpizza">Kycklingpizza</option>
+        <option value="Vegetarisk">Vegetarisk Pizza</option>
+
+
+    </select>
+
+    <label for="quantity">Antal:</label>
+    <input type="number" id="quantity" min="1" value="1" required>
+
+    <button onclick="addPizza()">Lägg till pizza</button>
+</div>
+
+    <!-- Order Summary Section -->
+    <div id="order-summary">
+        <h2>Beställningsöversikt</h2>
+        <ul id="order-list"></ul>
+        <p id="total-price">Totalt pris: 0 kr</p>
+        <button onclick="placeOrder()">Beställ</button>
+    </div>
+</div>
+<script src="script.js"></script>
